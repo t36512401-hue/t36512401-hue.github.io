@@ -12,7 +12,7 @@ baseurl: ""  # Empty for user sites
 repository: "t36512401-hue/t36512401-hue.github.io"
 
 author:
-  avatar: "picture.png"  # Upload photo to images/ folder later
+  avatar: "test.png"  # Upload photo to images/ folder later
   name: "Ravi Prakash Srivastava"
   bio: "Researcher in robust & fairness-aware NLP | Multilingual & low-resource settings | Adversarial robustness & uncertainty calibration"
   location: "India"
