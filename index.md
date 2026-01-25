@@ -1,8 +1,3 @@
----
-layout: home
-author_profile: true
----
-
 ## About Me
 
 I am a researcher focused on **robust and fairness-aware NLP**, with emphasis on:
