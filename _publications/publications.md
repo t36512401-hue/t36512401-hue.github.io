@@ -5,6 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
+
 <ul style="list-style:none; padding-left:0;">
 {% for post in site.publications reversed %}
   {% if post.permalink != "/publications/" %}
