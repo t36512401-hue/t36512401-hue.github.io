@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
+<div style="margin-top:2rem;"> <!-- noticeable space below the title -->
+
 <ul style="list-style:none; padding-left:0;">
 {% for post in site.publications reversed %}
   <li style="margin-bottom:1.2rem;">
