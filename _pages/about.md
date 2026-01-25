@@ -12,4 +12,4 @@ Researcher focused on robust and fairness-aware NLP, with emphasis on adversaria
 [LinkedIn](https://www.linkedin.com/in/ravi-prakash-sri)  
 [ORCID: 0009-0009-3255-8758](https://orcid.org/0009-0009-3255-8758)
 
-View full [CV](/cv/)
+[View full CV](/cv/) | [Publications](/publications/) | [Portfolio](/portfolio/)
