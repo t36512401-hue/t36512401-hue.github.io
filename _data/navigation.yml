@@ -2,7 +2,7 @@ main:
   - title: "Home"
     url: /
   - title: "Publications"
-    url: /publications/
+    url: /    # or /cv/ if publications are in CV page
   - title: "Portfolio"
     url: /portfolio/
   - title: "CV"
