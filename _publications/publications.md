@@ -5,26 +5,13 @@ permalink: /publications/
 author_profile: true
 ---
 
-<ul style="list-style:none; padding-left:0;">
+<ul>
 {% for post in site.publications reversed %}
-  {% if post.permalink != "/publications/" %}
-  <li style="margin-bottom:0.8rem;">
-    <!-- Title -->
-    <strong><a href="{{ post.url | relative_url }}" style="text-decoration:none; color:inherit;">{{ post.title }}</a></strong>
-    
-    <!-- Venue / Year -->
-    <div style="font-size:0.9rem; color:inherit; margin-left:1rem;">
-      {% if post.venue %}{{ post.venue }}{% endif %}
-      {% if post.date %} ({{ post.date | date: "%Y" }}){% endif %}
-    </div>
-
-    <!-- PDF / Link -->
-    {% if post.paperurl %}
-    <div style="font-size:0.9rem; margin-left:1rem;">
-      <a href="{{ post.paperurl }}" target="_blank" style="color:inherit;">[PDF / link]</a>
-    </div>
-    {% endif %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% if post.venue %} — {{ post.venue }}{% endif %}
+    {% if post.date %} ({{ post.date | date: "%Y" }}){% endif %}
+    {% if post.paperurl %} — <a href="{{ post.paperurl }}" target="_blank">[PDF]</a>{% endif %}
   </li>
-  {% endif %}
 {% endfor %}
 </ul>
