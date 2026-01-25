@@ -4,7 +4,7 @@ title: "Education"
 permalink: /education/
 author_profile: true
 ---
-<br>
+<div style="margin-top:2rem;"> <!-- noticeable space below the title -->
 <ul style="list-style:none; padding-left:0;">
   <!-- M.Tech -->
   <li style="margin-bottom:1.5rem;">
