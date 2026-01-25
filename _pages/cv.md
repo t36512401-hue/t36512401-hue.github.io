@@ -5,8 +5,6 @@ permalink: /cv/
 author_profile: true
 ---
 
-{% include base_path %}
-
 [Download Full CV (PDF)](/files/Ravi_Prakash_Srivastava_CV.pdf)
 
 ### Education
@@ -24,39 +22,66 @@ author_profile: true
 {% endfor %}</ul>
 
 ### Experience
-- **Research Data Scientist**  
-  Pantech e-learning, India  
-  February 2023 – August 2024  
-  - Designed predictive machine learning models with emphasis on reliability and robustness under noisy and incomplete data.  
-  - Conducted systematic robustness evaluation through stress testing, identifying failure modes and informing mitigation strategies.
+**Research Data Scientist**  
+Pantech e-learning, India  
+February 2023 – August 2024
+- Designed predictive machine learning models with emphasis on reliability and robustness under noisy and incomplete data.
+- Conducted systematic robustness evaluation through stress testing, identifying failure modes and informing mitigation strategies.
 
-- **Machine Learning Intern**  
-  Center for Development of Advanced Computing (C-DAC), India  
-  August 2022 – February 2023  
-  - Performed data preprocessing and feature engineering on student activity logs, including attendance, assignment submissions, and quiz scores, to improve model performance.  
-  - Conducted comparative evaluation of multiple machine learning algorithms, including Decision Trees, Random Forests, and SVMs, to identify the most effective approach.  
-  - Evaluated multiple algorithms and analyzed their generalization behavior on real-world educational data.
+**Machine Learning Intern**  
+Center for Development of Advanced Computing (C-DAC), India  
+August 2022 – February 2023
+- Performed data preprocessing and feature engineering on student activity logs...
+- Conducted comparative evaluation of multiple machine learning algorithms...
+- Evaluated multiple algorithms and analyzed their generalization behavior...
 
 ### Projects
-- **Master’s Thesis (Ongoing): A Transformer-Based Multilingual Framework for Text Summarization in Indian Languages**  
-  - Investigated transformer-based approaches for multilingual text summarization in low-resource Indian languages, focusing on Hindi, Gujarati, and Bengali.  
-  - Experimented with pretrained multilingual models, including mT5, mBART-50, and IndicBART, to build scalable and reliable summarization systems.  
-  - Applied ensemble learning techniques to construct stronger baseline models, improving summarization quality, robustness, and cross-lingual generalization.
+**Master’s Thesis (Ongoing): A Transformer-Based Multilingual Framework for Text Summarization in Indian Languages**
+- Investigated transformer-based approaches for multilingual text summarization in low-resource Indian languages...
+- Experimented with pretrained multilingual models, including mT5, mBART-50, and IndicBART...
+- Applied ensemble learning techniques...
 
-- **Bachelor’s Thesis: IoT-HITS: IoT-based Human Intrusion Detection System for Border Regions Using Deep Learning**  
-  - Developed an IoT-based border security system using deep learning for real-time human intrusion detection.  
-  - Designed the system architecture, integrated sensors, and implemented the deep learning detection model with alert mechanisms.
+**Bachelor’s Thesis: IoT-HITS: IoT-based Human Intrusion Detection System for Border Regions Using Deep Learning**
+- Developed an IoT-based border security system using deep learning...
+- Designed the system architecture, integrated sensors...
 
-- **Text Classification Using TF–IDF Feature Extraction in NLP**  
-  - Developed a text classification model leveraging TF–IDF vectorization for feature extraction, achieving high accuracy in document categorization.  
-  - Implemented preprocessing steps including tokenization, stopword removal, stemming/lemmatization, and text normalization to improve model performance.
+**Text Classification Using TF–IDF Feature Extraction in NLP**
+- Developed a text classification model leveraging TF–IDF...
+- Implemented preprocessing steps...
 
 ### Technical Skills
-- **Core Research Areas**: Robustness and Distribution Shift, Multilingual NLP, Fairness and Bias Mitigation, Model Evaluation, Uncertainty Calibration, Adversarial Analysis.  
-- **Machine Learning & NLP**: Deep Learning, Transformer Models, Representation Learning, Text Summarization, Feature Engineering.  
-- **Tools & Frameworks**: PyTorch, Hugging Face Transformers, Scikit-learn, NumPy, Pandas.  
-- **Programming**: Python, C++, SQL, Bash.  
-- **Research Platforms**: Linux, Git, Jupyter Notebook.
+**Core Research Areas**  
+- Robustness and Distribution Shift  
+- Multilingual NLP  
+- Fairness and Bias Mitigation  
+- Model Evaluation  
+- Uncertainty Calibration  
+- Adversarial Analysis  
+
+**Machine Learning & NLP**  
+- Deep Learning  
+- Transformer Models  
+- Representation Learning  
+- Text Summarization  
+- Feature Engineering  
+
+**Tools & Frameworks**  
+- PyTorch  
+- Hugging Face Transformers  
+- Scikit-learn  
+- NumPy  
+- Pandas  
+
+**Programming**  
+- Python  
+- C++  
+- SQL  
+- Bash  
+
+**Research Platforms**  
+- Linux  
+- Git  
+- Jupyter Notebook  
 
 ### Achievement
 - Received the Institution of Electronics and Telecommunication Engineers (IETE) Scholarship for academic excellence during M.Tech studies in Computer Science and Engineering.
