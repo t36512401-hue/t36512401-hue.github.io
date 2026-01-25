@@ -1,6 +1,6 @@
 main:
   - title: "Home"
-    url: /cv/
+    url: /
   - title: "Publications"
     url: /publications/    # or /cv/ if publications are in CV page
   - title: "Portfolio"
