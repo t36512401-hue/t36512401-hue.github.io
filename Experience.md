@@ -4,6 +4,8 @@ title: "Experience"
 permalink: /experience/
 author_profile: true
 ---
+<div style="margin-top:0.5rem;"> <!-- small space below the title -->
+
 <ul style="list-style:none; padding-left:0;">
 
   <!-- Research Data Scientist -->
@@ -32,3 +34,4 @@ author_profile: true
   </li>
 
 </ul>
+</div>
