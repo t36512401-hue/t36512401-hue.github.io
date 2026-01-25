@@ -1,0 +1,113 @@
+# Welcome to Jekyll!
+locale: "en-US"
+site_theme: "default"  # Options: default, air, sunrise, mint, dirt, contrast
+
+title: "Ravi Prakash Srivastava"
+title_separator: "-"
+name: &name "Ravi Prakash Srivastava"
+description: &description "Researcher focused on robust and fairness-aware NLP, with emphasis on adversarial robustness, distribution shift, multilingual and low-resource settings, uncertainty calibration, and reliable evaluation of LLM-based systems."
+
+url: "https://t36512401-hue.github.io"  # Your site URL
+baseurl: ""  # Empty for user sites
+repository: "t36512401-hue/t36512401-hue.github.io"
+
+author:
+  avatar: "/images/profile.png"  # Upload photo to images/ folder later
+  name: "Ravi Prakash Srivastava"
+  bio: "Researcher in robust & fairness-aware NLP | Multilingual & low-resource settings | Adversarial robustness & uncertainty calibration"
+  location: "India"
+  email: "raviprakashshrivastav7@gmail.com"
+  linkedin: "ravi-prakash-sri"  # Username only
+  orcid: "https://orcid.org/0009-0009-3255-8758"
+  github: "t36512401-hue"  # Your username (optional)
+
+# Publication categories
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'
+  conferences:
+    title: 'Conference Papers'
+  preprints:
+    title: 'Preprints'
+
+# Other defaults
+teaser: ""
+breadcrumbs: false
+words_per_minute: 160
+future: true
+read_more: "disabled"
+talkmap_link: false
+comments:
+  provider: false
+atom_feed:
+  hide: false
+
+# Analytics/SEO (optional)
+analytics:
+  provider: false
+google_site_verification: ""
+
+# Collections (enable publications/portfolio)
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults for layouts
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+
+# Sass/plugins
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+permalink: /:categories/:title/
+timezone: Etc/UTC
