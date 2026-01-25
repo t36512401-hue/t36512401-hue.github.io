@@ -1,5 +1,11 @@
-# About Me
+---
+layout: archive
+title: "About Me"
+permalink: /
+author_profile: true
+---
 
+<br>
 I am a researcher working on **robust and fairness-aware Natural Language Processing (NLP)**, with a focus on building **reliable and trustworthy language models**. My research interests include:
 
 - Adversarial robustness  
