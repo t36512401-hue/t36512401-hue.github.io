@@ -28,10 +28,4 @@ author_profile: true
     </div>
   </li>
 
-  <!-- ORCID -->
-  <li>
-    <div style="font-size:0.9rem; color:var(--color-accent); margin-top:0.2rem;">
-      Publications [ORCID ID: <a href="https://orcid.org/0009-0009-3255-8758" target="_blank" style="color:var(--color-accent); text-decoration:underline;">0009-0009-3255-8758</a>]
-    </div>
-  </li>
 </ul>
