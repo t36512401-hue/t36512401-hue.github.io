@@ -1,10 +1,10 @@
 ---
 layout: archive
-title: "Education"
+title: ""
 permalink: /education/
 author_profile: true
 ---
-
+<br>
 <ul style="list-style:none; padding-left:0;">
   <!-- M.Tech -->
   <li style="margin-bottom:1.5rem;">
