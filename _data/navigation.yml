@@ -3,7 +3,9 @@ main:
     url: /
   - title: "Publications"
     url: /publications/    # or /cv/ if publications are in CV page
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Education"
+    url: /education/    # or /cv/ if publications are in CV page
+  - title: "Experience"
+    url: /experience/    # or /cv/ if publications are in CV page
   - title: "CV"
     url: /cv/ 
