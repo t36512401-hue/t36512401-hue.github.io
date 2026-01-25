@@ -5,4 +5,7 @@ permalink: /cv/
 author_profile: true
 ---
 
-[Download Full CV (PDF)](/files/Ravi_Prakash_Srivastava_CV.pdf)
+<a href="/files/Ravi_Prakash_Srivastava_CV.pdf" style="color:inherit; text-decoration:none;">
+  ⬇️ Download Full CV (PDF)
+</a>
+
