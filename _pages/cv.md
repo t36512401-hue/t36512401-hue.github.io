@@ -3,62 +3,76 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+[Download Full CV (PDF)](/files/Ravi_Prakash_Srivastava_CV.pdf)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+### Education
+- **M.Tech (Data Science & AI)**  
+  Indian Institute of Information Technology, Ranchi, India  
+  August 2024 – April 2026
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **B.Tech (Information Technology)** (CGPA: 7.85)  
+  North Eastern Hill University, India  
+  August 2018 – June 2022
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+### Publications
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+### Experience
+- **Research Data Scientist**  
+  Pantech e-learning, India  
+  February 2023 – August 2024  
+  - Designed predictive machine learning models with emphasis on reliability and robustness under noisy and incomplete data.  
+  - Conducted systematic robustness evaluation through stress testing, identifying failure modes and informing mitigation strategies.
+
+- **Machine Learning Intern**  
+  Center for Development of Advanced Computing (C-DAC), India  
+  August 2022 – February 2023  
+  - Performed data preprocessing and feature engineering on student activity logs, including attendance, assignment submissions, and quiz scores, to improve model performance.  
+  - Conducted comparative evaluation of multiple machine learning algorithms, including Decision Trees, Random Forests, and SVMs, to identify the most effective approach.  
+  - Evaluated multiple algorithms and analyzed their generalization behavior on real-world educational data.
+
+### Projects
+- **Master’s Thesis (Ongoing): A Transformer-Based Multilingual Framework for Text Summarization in Indian Languages**  
+  - Investigated transformer-based approaches for multilingual text summarization in low-resource Indian languages, focusing on Hindi, Gujarati, and Bengali.  
+  - Experimented with pretrained multilingual models, including mT5, mBART-50, and IndicBART, to build scalable and reliable summarization systems.  
+  - Applied ensemble learning techniques to construct stronger baseline models, improving summarization quality, robustness, and cross-lingual generalization.
+
+- **Bachelor’s Thesis: IoT-HITS: IoT-based Human Intrusion Detection System for Border Regions Using Deep Learning**  
+  - Developed an IoT-based border security system using deep learning for real-time human intrusion detection.  
+  - Designed the system architecture, integrated sensors, and implemented the deep learning detection model with alert mechanisms.
+
+- **Text Classification Using TF–IDF Feature Extraction in NLP**  
+  - Developed a text classification model leveraging TF–IDF vectorization for feature extraction, achieving high accuracy in document categorization.  
+  - Implemented preprocessing steps including tokenization, stopword removal, stemming/lemmatization, and text normalization to improve model performance.
+
+### Technical Skills
+- **Core Research Areas**: Robustness and Distribution Shift, Multilingual NLP, Fairness and Bias Mitigation, Model Evaluation, Uncertainty Calibration, Adversarial Analysis.  
+- **Machine Learning & NLP**: Deep Learning, Transformer Models, Representation Learning, Text Summarization, Feature Engineering.  
+- **Tools & Frameworks**: PyTorch, Hugging Face Transformers, Scikit-learn, NumPy, Pandas.  
+- **Programming**: Python, C++, SQL, Bash.  
+- **Research Platforms**: Linux, Git, Jupyter Notebook.
+
+### Achievement
+- Received the Institution of Electronics and Telecommunication Engineers (IETE) Scholarship for academic excellence during M.Tech studies in Computer Science and Engineering.
+
+### Professional Affiliations
+- The Institution of Electronics and Telecommunication Engineers (IETE) – Associate Member [AM-503427]
+
+### References
+- **Dr. Kirti Kumari**  
+  HoD and Assistant Professor, Department of CSE, Indian Institute of Information Technology, Ranchi, India  
+  Email: kirti@iiitranchi.ac.in
+
+- **Prof. Md. Iftekhar Hussain**  
+  Professor of Information Technology, North-Eastern Hill University, India  
+  Email: ihussain@nehu.ac.in
+
+- **Dr. Khwairakpam Amitab**  
+  Assistant Professor, Department of Information Technology, North-Eastern Hill University, India  
+  Email: kamitab@nehu.ac.in
