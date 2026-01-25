@@ -5,6 +5,15 @@ permalink: /publications/
 author_profile: true
 ---
 
+# Publications
+
+<ul>
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    {% if post.venue %} — <em>{{ post.venue }}</em>{% endif %}
+    {% if post.date %} ({{ post.date | date: "%Y" }}){% endif %}
+    {% if post.paperurl %} — <a href="{{ post.paperurl }}" target="_blank">[PDF/link]</a>{% endif %}
+  </li>
 {% endfor %}
+</ul>
