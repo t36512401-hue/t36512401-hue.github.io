@@ -9,6 +9,3 @@ main:
     url: /experience/    # or /cv/ if publications are in CV page
   - title: "CV"
     url: /cv/
-  - title: "Contact"
-    url: /contact/ 
-
