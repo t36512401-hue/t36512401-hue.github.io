@@ -2,7 +2,7 @@
 locale: "en-US"
 site_theme: "default"  # Options: default, air, sunrise, mint, dirt, contrast
 
-title: "Ravi Prakash Srivastava"
+title: "Ravi's Homepage"
 title_separator: "-"
 name: &name "Ravi Prakash Srivastava"
 description: &description "Researcher focused on robust and fairness-aware NLP, with emphasis on adversarial robustness, distribution shift, multilingual and low-resource settings, uncertainty calibration, and reliable evaluation of LLM-based systems."
