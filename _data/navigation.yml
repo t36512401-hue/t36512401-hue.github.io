@@ -3,8 +3,6 @@ main:
     url: /
   - title: "Publications"
     url: /publications/    # or /cv/ if publications are in CV page
-  - title: "Education"
-    url: /education/    # or /cv/ if publications are in CV page
   - title: "Experience"
     url: /experience/    # or /cv/ if publications are in CV page
   - title: "CV"
