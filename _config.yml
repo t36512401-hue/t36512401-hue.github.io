@@ -7,9 +7,9 @@ title_separator: "-"
 name: &name "Ravi Prakash Srivastava"
 description: &description "Researcher focused on robust and fairness-aware NLP, with emphasis on adversarial robustness, distribution shift, multilingual and low-resource settings, uncertainty calibration, and reliable evaluation of LLM-based systems."
 
-url: "https://t36512401-hue.github.io"  # Your site URL
+url: "https://er-ravi-srivastava.github.io"  # Your site URL
 baseurl: ""  # Empty for user sites
-repository: "t36512401-hue/t36512401-hue.github.io"
+repository: "er-ravi-srivastava/er-ravi-srivastava.github.io" 
 
 author:
   avatar: "picture_resized.png"  # Upload photo to images/ folder later
@@ -19,7 +19,7 @@ author:
   email: "raviprakashshrivastav7@gmail.com"
   linkedin: "ravi-prakash-sri"  # Username only
   orcid: "https://orcid.org/0009-0009-3255-8758"
-  github: "t36512401-hue"  # Your username (optional)
+  github: "er-ravi-srivastava"  # Your username (optional)
 
 # Publication categories
 publication_category:
