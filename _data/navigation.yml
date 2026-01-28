@@ -1,4 +1,6 @@
 main:
+  - title: ""
+    url: /    # or /cv/ if publications are in CV page
   - title: "Publications"
     url: /publications/    # or /cv/ if publications are in CV page
   - title: "Projects"
