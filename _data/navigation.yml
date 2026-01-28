@@ -8,4 +8,7 @@ main:
   - title: "Experience"
     url: /experience/    # or /cv/ if publications are in CV page
   - title: "CV"
-    url: /cv/ 
+    url: /cv/
+  - title: "Contact"
+    url: /contact/ 
+
