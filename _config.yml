@@ -12,14 +12,19 @@ baseurl: ""  # Empty for user sites
 repository: "er-ravi-srivastava/er-ravi-srivastava.github.io" 
 
 author:
-  avatar: "picture_resized.png"  # Upload photo to images/ folder later
+  avatar: "picture_resized.png"
   name: "Ravi Prakash Srivastava"
   bio: "Researcher in robust & fairness-aware NLP | Multilingual & low-resource settings"
   location: "India"
   email: "raviprakashshrivastav7@gmail.com"
-  linkedin: "ravi-prakash-sri"  # Username only
-  orcid: "https://orcid.org/0009-0009-3255-8758"
-  github: "er-ravi-srivastava"  # Your username (optional)
+  linkedin: "ravi-prakash-sri"
+  github: "er-ravi-srivastava"
+
+  links:
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/citations?user=sElDRIMAAAAJ&hl=en"
+
 
 # Publication categories
 publication_category:
