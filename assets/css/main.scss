@@ -1,6 +1,5 @@
 ---
 ---
-
 /*
  * This file controls what is imported from /_sass
  *
@@ -41,3 +40,11 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* ===== Profile avatar override ===== */
+.author__avatar img {
+  width: 220px;        /* increase size */
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+}
