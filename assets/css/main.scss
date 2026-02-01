@@ -45,7 +45,9 @@
 .author__avatar img {
   width: 120px;
   height: 120px;
-  border-radius: 50%;  /* keeps it circular */
-  object-fit: cover;   /* prevents stretching */
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
 }
+
 
