@@ -43,10 +43,11 @@
 
 /* ===== Profile avatar override ===== */
 .author__avatar img {
-  width: 180px;
-  height: 180px;
-  border-radius: 42%;   /* natural, not coin-like */
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;   /* perfect circle */
   object-fit: cover;
 }
+
 
 
