@@ -14,7 +14,7 @@ repository: "er-ravi-srivastava/er-ravi-srivastava.github.io"
 author:
   avatar: "picture_resized.png"  # Upload photo to images/ folder later
   name: "Ravi Prakash Srivastava"
-  bio: "Researcher in robust & fairness-aware NLP | Multilingual & low-resource settings | Adversarial robustness & uncertainty calibration"
+  bio: "Researcher in robust & fairness-aware NLP | Multilingual & low-resource settings"
   location: "India"
   email: "raviprakashshrivastav7@gmail.com"
   linkedin: "ravi-prakash-sri"  # Username only
