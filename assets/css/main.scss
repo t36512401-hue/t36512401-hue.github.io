@@ -43,10 +43,9 @@
 
 /* ===== Profile avatar override ===== */
 .author__avatar img {
-  width: 170px !important;
-  height: 170px !important;
-  border-radius: 40% !important;   /* softer than a perfect circle */
-  object-fit: cover !important;    /* no stretching */
+  width: 180px !important;
+  height: 160px !important;  /* slightly shorter */
+  border-radius: 40% !important;
+  object-fit: cover !important;
 }
-
 
